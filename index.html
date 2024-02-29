@@ -7,9 +7,9 @@
     <style>
         .navbar{
             background-color: aqua;
-        }
-        .nav-logo{
-            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .nav-img{
             width: 100px;
@@ -17,6 +17,21 @@
             height: 100px;
             border: 1px solid gray;
             border-radius: 5px;
+        }
+        .nav-text{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: red;
+        }
+        .text{
+            
+            color: #2f0468;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 20px;
         }
     </style>
 </head>
@@ -28,7 +43,7 @@
         <div class="nav-text">
             <a href="./PAGES/about.html" class="text">About_us</a>
             <a href="./PAGES/contact.html" class="text">Contact</a>
-            <a href="./PAGES/login.html">
+            <a href="./PAGES/login.html" class="text">Log in </a>
         </div>
     </div>
 </body>
